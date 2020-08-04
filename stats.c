@@ -1,7 +1,8 @@
 #include<stdio.h>
 #include"stats.h"
-unsigned char array[100]={10,11,12,16,2,3,1,8,4,5,20},rev_array[100], min_set=4, max_set=10, size=11,size1, c;
-double mean=0,sum=0;int count=10;
+unsigned char array[100]={10,11,12,16,2,3,1,8,4,5,20,25,6,7,9,14,13,15,19,17,18,21,22,23,24
+,26,27,28,29,39,38,37,36,35,34,33,32,31,30,40},rev_array[100], min_set=4, max_set=20, size=40,size1, c;
+double mean=0,sum=0;int count=39;
 
 int main()
 {
@@ -30,8 +31,6 @@ int main()
 	 min_set,max_set,mean,array[size1]);
 
    return 0;
-}
-
 //***function definitions ***/////
 
 int find_minimum( unsigned char c,unsigned char min_set)
