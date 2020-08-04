@@ -31,6 +31,7 @@ int main()
 	 min_set,max_set,mean,array[size1]);
 
    return 0;
+}
 //***function definitions ***/////
 
 int find_minimum( unsigned char c,unsigned char min_set)
